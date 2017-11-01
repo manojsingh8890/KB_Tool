@@ -40,6 +40,15 @@
 
 	</div>
 	<!-- /.container -->
+	 <h1 style="color:blue"> Hello! This is Welcome Page!</h1>
+     
+     <a style="color:blue" th:href="@{/}">Go to Home Page!</a>
+     <br/>
+     
+     <form th:action="@{/logout}" method="post">
+         <input type="submit" value="Sign Out"/>
+     </form>
+	
 
 	<script type="text/javascript"
 		src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
